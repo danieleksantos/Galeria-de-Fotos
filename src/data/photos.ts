@@ -85,4 +85,32 @@ export const PHOTO_MOCK: Photo[] = [
     thumbnailUrl:
       'https://plus.unsplash.com/premium_photo-1661963470269-56c47bd63da1?auto=format&fit=crop&w=200&q=80',
   },
+  {
+    id: 13,
+    title: 'Esgrima',
+    url: 'https://plus.unsplash.com/premium_photo-1664304785520-214c522779c4?auto=format&fit=crop&w=800&q=80',
+    thumbnailUrl:
+      'https://plus.unsplash.com/premium_photo-1664304785520-214c522779c4?auto=format&fit=crop&w=200&q=80',
+  },
+  {
+    id: 14,
+    title: 'Judo',
+    url: 'https://plus.unsplash.com/premium_photo-1712438460673-5210f76bfd60?auto=format&fit=crop&w=800&q=80',
+    thumbnailUrl:
+      'https://plus.unsplash.com/premium_photo-1712438460673-5210f76bfd60?auto=format&fit=crop&w=200&q=80',
+  },
+  {
+    id: 15,
+    title: 'Tenis',
+    url: 'https://images.unsplash.com/photo-1545151414-8a948e1ea54f?auto=format&fit=crop&w=800&q=80',
+    thumbnailUrl:
+      'https://images.unsplash.com/photo-1545151414-8a948e1ea54f?auto=format&fit=crop&w=200&q=80',
+  },
+  {
+    id: 16,
+    title: 'Futebol',
+    url: 'https://images.unsplash.com/photo-1478851814281-61a21b884e62?auto=format&fit=crop&w=800&q=80',
+    thumbnailUrl:
+      'https://images.unsplash.com/photo-1478851814281-61a21b884e62?auto=format&fit=crop&w=200&q=80',
+  },
 ]
