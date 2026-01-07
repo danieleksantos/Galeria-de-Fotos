@@ -3,72 +3,86 @@ import { Photo } from '../types/Photo'
 export const PHOTO_MOCK: Photo[] = [
   {
     id: 1,
-    title: 'Montanhas Nevadas',
-    url: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80',
+    title: 'Atletismo',
+    url: 'https://plus.unsplash.com/premium_photo-1721755969847-6720346ddc15?auto=format&fit=crop&w=800&q=80',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=200&q=80',
+      'https://plus.unsplash.com/premium_photo-1721755969847-6720346ddc15?auto=format&fit=crop&w=200&q=80',
   },
   {
     id: 2,
-    title: 'Floresta Tropical',
-    url: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80',
+    title: 'Volei de praia',
+    url: 'https://images.unsplash.com/photo-1686753767878-2f5fb25e43ac?auto=format&fit=crop&w=800&q=80',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=200&q=80',
+      'https://images.unsplash.com/photo-1686753767878-2f5fb25e43ac?auto=format&fit=crop&w=200&q=80',
   },
   {
     id: 3,
-    title: 'Pôr do Sol no Mar',
-    url: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80',
+    title: 'Corrida',
+    url: 'https://plus.unsplash.com/premium_photo-1721755986353-01df7ea3ece9?auto=format&fit=crop&w=800&q=80',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=200&q=80',
+      'https://plus.unsplash.com/premium_photo-1721755986353-01df7ea3ece9?auto=format&fit=crop&w=200&q=80',
   },
   {
     id: 4,
-    title: 'Cidade à Noite',
-    url: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=800&q=80',
+    title: 'Skate',
+    url: 'https://images.unsplash.com/photo-1723665935499-48ed88b1ddea?auto=format&fit=crop&w=800&q=80',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=200&q=80',
+      'https://images.unsplash.com/photo-1723665935499-48ed88b1ddea?auto=format&fit=crop&w=200&q=80',
   },
   {
     id: 5,
-    title: 'Deserto de Areia',
-    url: 'https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?auto=format&fit=crop&w=800&q=80',
+    title: 'Futebol',
+    url: 'https://images.unsplash.com/photo-1554041535-c9dd18d0ec67?auto=format&fit=crop&w=800&q=80',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?auto=format&fit=crop&w=200&q=80',
+      'https://images.unsplash.com/photo-1554041535-c9dd18d0ec67?auto=format&fit=crop&w=200&q=80',
   },
   {
     id: 6,
-    title: 'Lago Cristalino',
-    url: 'https://images.unsplash.com/photo-1439853949127-fa647821eba0?auto=format&fit=crop&w=800&q=80',
+    title: 'Canionismo',
+    url: 'https://images.unsplash.com/photo-1579558021218-b0665425a97f?auto=format&fit=crop&w=800&q=80',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1439853949127-fa647821eba0?auto=format&fit=crop&w=200&q=80',
+      'https://images.unsplash.com/photo-1579558021218-b0665425a97f?auto=format&fit=crop&w=200&q=80',
   },
   {
     id: 7,
-    title: 'Cachoeira Escondida',
-    url: 'https://images.unsplash.com/photo-1433086177607-6c3963390c92?auto=format&fit=crop&w=800&q=80',
+    title: 'Salto Areia',
+    url: 'https://plus.unsplash.com/premium_photo-1721755952268-353011dca77f?auto=format&fit=crop&w=800&q=80',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1433086177607-6c3963390c92?auto=format&fit=crop&w=200&q=80',
+      'https://plus.unsplash.com/premium_photo-1721755952268-353011dca77f?auto=format&fit=crop&w=200&q=80',
   },
   {
     id: 8,
-    title: 'Estrada Infinita',
-    url: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80',
+    title: 'Basquete',
+    url: 'https://plus.unsplash.com/premium_photo-1716758705908-460213444fe1?auto=format&fit=crop&w=800&q=80',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=200&q=80',
+      'https://plus.unsplash.com/premium_photo-1716758705908-460213444fe1?auto=format&fit=crop&w=200&q=80',
   },
   {
     id: 9,
-    title: 'Campo de Lavanda',
-    url: 'https://images.unsplash.com/photo-1493916665398-143bdeabe500?auto=format&fit=crop&w=800&q=80',
+    title: 'Salto Vara',
+    url: 'https://plus.unsplash.com/premium_photo-1664302621664-38326a7e08ed?auto=format&fit=crop&w=800&q=80',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1493916665398-143bdeabe500?auto=format&fit=crop&w=200&q=80',
+      'https://plus.unsplash.com/premium_photo-1664302621664-38326a7e08ed?auto=format&fit=crop&w=200&q=80',
   },
   {
     id: 10,
-    title: 'Aurora Boreal',
-    url: 'https://images.unsplash.com/photo-1483366759561-6a21021b053b?auto=format&fit=crop&w=800&q=80',
+    title: 'Boxe',
+    url: 'https://images.unsplash.com/photo-1601039833801-25f595bfbaa9?auto=format&fit=crop&w=800&q=80',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1483366759561-6a21021b053b?auto=format&fit=crop&w=200&q=80',
+      'https://images.unsplash.com/photo-1601039833801-25f595bfbaa9?auto=format&fit=crop&w=200&q=80',
+  },
+  {
+    id: 11,
+    title: 'Arco e flecha',
+    url: 'https://plus.unsplash.com/premium_photo-1718315902794-5c3967f8fb53?auto=format&fit=crop&w=800&q=80',
+    thumbnailUrl:
+      'https://plus.unsplash.com/premium_photo-1718315902794-5c3967f8fb53?auto=format&fit=crop&w=200&q=80',
+  },
+  {
+    id: 12,
+    title: 'Ginastica Ritmica',
+    url: 'https://plus.unsplash.com/premium_photo-1661963470269-56c47bd63da1?auto=format&fit=crop&w=800&q=80',
+    thumbnailUrl:
+      'https://plus.unsplash.com/premium_photo-1661963470269-56c47bd63da1?auto=format&fit=crop&w=200&q=80',
   },
 ]
