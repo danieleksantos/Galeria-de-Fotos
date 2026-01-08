@@ -25,6 +25,7 @@ export const createAppTheme = (mode: PaletteMode) => {
       primary: {
         main: colors.primary,
         light: colors.footer,
+        dark: mode === 'light' ? '#4a148c' : '#e1b9ff',
       },
       background: {
         default: colors.background,
@@ -32,6 +33,29 @@ export const createAppTheme = (mode: PaletteMode) => {
       },
       text: {
         primary: colors.text,
+      },
+    },
+    typography: {
+      fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+      h1: {
+        fontWeight: 700,
+      },
+    },
+    components: {
+      MuiCard: {
+        styleOverrides: {
+          root: {
+            borderRadius: 12,
+            transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+          },
+        },
+      },
+      MuiAppBar: {
+        styleOverrides: {
+          root: {
+            backgroundImage: 'none',
+          },
+        },
       },
     },
   })
