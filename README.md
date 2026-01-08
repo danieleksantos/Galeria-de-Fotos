@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel" alt="Vercel">
 </p>
 
-Uma aplicação de galeria moderna focada em performance, acessibilidade e experiência do usuário, apresentando uma coleção de fotografias esportivas.
+Aplicação de galeria moderna focada em performance, acessibilidade e experiência do usuário, apresentando uma coleção de fotografias esportivas.
 
 ---
 
