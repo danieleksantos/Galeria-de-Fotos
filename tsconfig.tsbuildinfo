@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/theme.ts","./src/components/footer.tsx","./src/components/header.tsx","./src/components/photocard.tsx","./src/components/photogrid.tsx","./src/components/searchbar.tsx","./src/data/photos.ts","./src/styles/theme.ts","./src/types/photo.ts"],"version":"5.9.3"}

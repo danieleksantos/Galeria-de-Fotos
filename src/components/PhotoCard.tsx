@@ -33,7 +33,7 @@ export const PhotoCard = ({ photo }: PhotoCardProps) => {
           component="img"
           height="200"
           image={photo.url}
-          alt={photo.title}
+          alt={photo.alt}
           sx={{ objectFit: 'cover' }}
         />
         <CardContent
