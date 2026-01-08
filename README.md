@@ -1,16 +1,44 @@
-# React + Vite
+# 🏅 Galeria de Fotos - Esportes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-blue?logo=react" alt="React 19">
+  <img src="https://img.shields.io/badge/Vite-7-646CFF?logo=vite" alt="Vite 7">
+  <img src="https://img.shields.io/badge/Material--UI-7-007FFF?logo=mui" alt="MUI 7">
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript" alt="TypeScript 5">
+  <img src="https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel" alt="Vercel">
+</p>
 
-Currently, two official plugins are available:
+Uma aplicação de galeria moderna focada em performance, acessibilidade e experiência do usuário, apresentando uma coleção de fotografias esportivas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **🔍 Busca Dinâmica**: Filtragem em tempo real utilizando `useMemo` para garantir fluidez mesmo em listas extensas.
+- **🌓 Dark Mode**: Suporte a temas claro e escuro com paletas personalizadas via Contexto do Material UI.
+- **📄 Paginação**: Navegação estruturada (8 itens por página) com scroll automático.
+- **♿ Acessibilidade (A11y)**: Navegação por teclado, `aria-labels` descritivos e textos alternativos (`alt`) em todas as imagens.
+- **📱 Responsividade**: Layout adaptável para dispositivos móveis e desktops utilizando o sistema de Grid do MUI 7.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias e Boas Práticas
+
+Este projeto foi construído seguindo princípios de **Clean Code** e **SOLID**:
+
+* **React 19**: Uso de Hooks modernos e Strict Mode.
+* **TypeScript**: Tipagem estrita de dados e componentes para maior segurança.
+* **Material UI 7**: Componentização baseada em Design System.
+* **Performance**: Otimização de renderização para evitar re-calculos caros durante a digitação.
+
+---
+
+## 📂 Estrutura de Pastas
+
+```text
+src/
+ ├── components/ # Componentes de UI (Header, Search, etc)
+ ├── data/       # Mock de dados e constantes
+ ├── styles/     # Configuração unificada de Temas
+ ├── types/      # Interfaces e Definições de Tipos
+ └── App.tsx     # Lógica principal e Gerenciamento de Estado
