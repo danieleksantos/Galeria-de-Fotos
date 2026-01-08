@@ -15,18 +15,26 @@ export const SearchBar = ({ value, onChange }: SearchBarProps) => {
         placeholder="Pesquisar fotos..."
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        sx={{ maxWidth: 600 }}
+        sx={{
+          maxWidth: 600,
+          '& .MuiOutlinedInput-root': {
+            backgroundColor: (theme) =>
+              theme.palette.mode === 'light' ? '#fff' : 'background.paper',
+            borderRadius: 2,
+            transition: 'background-color 0.3s ease',
+          },
+        }}
         slotProps={{
           input: {
             startAdornment: (
               <InputAdornment position="start">
-                <SearchIcon color="action" />
+                <SearchIcon color="primary" />
               </InputAdornment>
             ),
           },
-        }}
-        inputProps={{
-          'aria-label': 'Campo de busca para buscar fotos pelo nome',
+          htmlInput: {
+            'aria-label': 'Campo de busca para buscar fotos pelo nome',
+          },
         }}
       />
     </Box>

@@ -1,4 +1,3 @@
-// Agora importamos 'Grid' diretamente, mas ele já é a versão 2 por baixo dos panos no MUI v6
 import { Grid } from '@mui/material'
 import { Photo } from '../types/Photo'
 import { PhotoCard } from './PhotoCard'

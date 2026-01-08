@@ -8,12 +8,21 @@ export const Footer = () => {
         py: 3,
         px: 2,
         mt: 'auto',
-        backgroundColor: '#a69bb6',
-        borderTop: '1px solid #7142bd',
+        backgroundColor: 'primary.light',
+        borderTop: '1px solid',
+        borderColor: 'divider',
+        transition: 'background-color 0.3s ease',
       }}
     >
       <Container maxWidth="lg">
-        <Typography variant="body2" color="text.secondary" align="center">
+        <Typography
+          variant="body2"
+          align="center"
+          sx={{
+            color: 'text.primary',
+            fontWeight: 500,
+          }}
+        >
           {'© '}
           {new Date().getFullYear()}
           {' Galeria de Fotos. Todos os direitos reservados.'}

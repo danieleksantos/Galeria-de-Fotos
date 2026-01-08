@@ -18,10 +18,13 @@ export const PhotoCard = ({ photo }: PhotoCardProps) => {
         height: '100%',
         display: 'flex',
         flexDirection: 'column',
-        transition: 'transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out',
+        transition: (theme) =>
+          theme.transitions.create(['transform', 'box-shadow'], {
+            duration: theme.transitions.duration.standard,
+          }),
         '&:hover': {
           transform: 'scale(1.03)',
-          boxShadow: '0 8px 16px rgba(0,0,0,0.2)',
+          boxShadow: 10,
         },
       }}
     >
@@ -33,12 +36,25 @@ export const PhotoCard = ({ photo }: PhotoCardProps) => {
           alt={photo.title}
           sx={{ objectFit: 'cover' }}
         />
-        <CardContent>
+        <CardContent
+          sx={{
+            flexGrow: 1,
+            backgroundColor: (theme) =>
+              theme.palette.mode === 'light' ? 'primary.light' : '#ffffff',
+            color: '#000000',
+            transition: 'background-color 0.3s ease',
+          }}
+        >
           <Typography
             variant="subtitle1"
             component="p"
             textAlign="center"
-            sx={{ fontWeight: 500 }}
+            sx={{
+              fontWeight: 600,
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
+              whiteSpace: 'nowrap',
+            }}
           >
             {photo.title}
           </Typography>
