@@ -1,4 +1,4 @@
-# Galeria de Fotos - Esportes
+<h1 align="center">Galeria de Fotos - Esportes </h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-19-blue?logo=react" alt="React 19">
