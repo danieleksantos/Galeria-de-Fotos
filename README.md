@@ -14,13 +14,13 @@ Aplicação de galeria moderna focada em performance, acessibilidade e experiên
 
 ## Funcionalidades
 
-- ** Visualização Imersiva (Lightbox)**: Ao clicar em uma foto, ela abre em tela cheia com suporte a navegação por slides.
-- ** Legendas Dinâmicas**: Exibição automática de títulos e descrições (foco em acessibilidade) contextuais dentro do modo de visualização.
-- ** Busca Dinâmica**: Filtragem em tempo real utilizando `useMemo` para garantir fluidez mesmo em listas extensas.
-- ** Dark Mode**: Suporte a temas claro e escuro com paletas personalizadas via Contexto do Material UI.
-- ** Paginação**: Navegação estruturada (8 itens por página) com scroll automático.
-- ** Acessibilidade (A11y)**: Navegação por teclado, `aria-labels` descritivos e textos alternativos (`alt`) em todas as imagens.
-- ** Responsividade**: Layout adaptável para dispositivos móveis e desktops utilizando o sistema de Grid do MUI 7.
+- <strong> Visualização Imersiva (Lightbox):</strong> Ao clicar em uma foto, ela abre em tela cheia com suporte a navegação por slides.
+- <strong> Legendas Dinâmicas:</strong> Exibição automática de títulos e descrições (foco em acessibilidade) contextuais dentro do modo de visualização.
+- <strong> Busca Dinâmica:</strong> Filtragem em tempo real utilizando `useMemo` para garantir fluidez mesmo em listas extensas.
+- <strong> Dark Mode:</strong> Suporte a temas claro e escuro com paletas personalizadas via Contexto do Material UI.
+- <strong> Paginação:</strong> Navegação estruturada (8 itens por página) com scroll automático.
+- <strong> Acessibilidade (A11y):</strong> Navegação por teclado, `aria-labels` descritivos e textos alternativos (`alt`) em todas as imagens.
+- <strong> Responsividade:</strong> Layout adaptável para dispositivos móveis e desktops utilizando o sistema de Grid do MUI 7.
 
 ---
 
