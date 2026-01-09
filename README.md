@@ -1,11 +1,11 @@
 <h1 align="center">Galeria de Fotos - Esportes </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-19-blue?logo=react" alt="React 19">
-  <img src="https://img.shields.io/badge/Vite-7-646CFF?logo=vite" alt="Vite 7">
-  <img src="https://img.shields.io/badge/Material--UI-7-007FFF?logo=mui" alt="MUI 7">
-  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript" alt="TypeScript 5">
-  <img src="https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel" alt="Vercel">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 </p>
 
 Aplicação de galeria moderna focada em performance, acessibilidade e experiência do usuário, apresentando uma coleção de fotografias esportivas.
