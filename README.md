@@ -42,6 +42,7 @@ src/
  ├── styles/     # Configuração unificada de Temas
  ├── types/      # Interfaces e Definições de Tipos
  └── App.tsx     # Lógica principal e Gerenciamento de Estado
+```
 
 
 ## 📸 Demonstração
