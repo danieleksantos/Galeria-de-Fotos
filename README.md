@@ -24,6 +24,7 @@ Aplicação de galeria moderna focada em performance, acessibilidade e experiên
 
 ---
 
+
 ## Tecnologias e Boas Práticas
 
 Este projeto foi construído seguindo princípios de **Clean Code** e **SOLID**:
@@ -90,3 +91,14 @@ src/
     </tr>
   </tbody>
 </table>
+
+<br />
+<div align="center">
+  <h3>🌐 Link do Projeto em Produção</h3>
+  <p>Não quer instalar nada? Visualize o projeto agora mesmo:</p>
+  <a href="https://galeria-de-fotos-puce-sigma.vercel.app/" target="_blank">
+    <strong>https://galeria-de-fotos-puce-sigma.vercel.app/</strong>
+  </a>
+</div>
+
+<br />
