@@ -42,3 +42,12 @@ src/
  ├── styles/     # Configuração unificada de Temas
  ├── types/      # Interfaces e Definições de Tipos
  └── App.tsx     # Lógica principal e Gerenciamento de Estado
+
+
+## 📸 Demonstração
+<p align="center">
+<img src="https://https://github.com/user-attachments/assets/081e6c9e-c4bd-4991-a07f-2b9fc20b02f3" alt="Desktop Dark Mode Preview" width="700" /></p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a8578d65-36d8-490b-9a95-3e75e7e8f2b9" alt="Mobile Dark Mode" width="200" />
+</p>
+
