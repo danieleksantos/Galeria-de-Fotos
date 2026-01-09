@@ -9,6 +9,12 @@ import {
   ThemeProvider,
   PaletteMode,
 } from '@mui/material'
+
+import Lightbox from 'yet-another-react-lightbox'
+import Captions from 'yet-another-react-lightbox/plugins/captions'
+import 'yet-another-react-lightbox/plugins/captions.css'
+import 'yet-another-react-lightbox/styles.css'
+
 import { Header } from './components/Header'
 import { SearchBar } from './components/SearchBar'
 import { PhotoGrid } from './components/PhotoGrid'
@@ -20,6 +26,8 @@ export function App() {
   const [mode, setMode] = useState<PaletteMode>('light')
   const [searchTerm, setSearchTerm] = useState('')
   const [page, setPage] = useState(1)
+  const [index, setIndex] = useState<number>(-1)
+
   const photosPerPage = 8
 
   const theme = useMemo(() => createAppTheme(mode), [mode])
@@ -33,6 +41,15 @@ export function App() {
       photo.title.toLowerCase().includes(searchTerm.toLowerCase()),
     )
   }, [searchTerm])
+
+  const slides = useMemo(() => {
+    return filteredPhotos.map((photo) => ({
+      src: photo.url,
+      alt: photo.alt,
+      title: photo.title,
+      description: photo.alt,
+    }))
+  }, [filteredPhotos])
 
   const totalPages = Math.ceil(filteredPhotos.length / photosPerPage)
 
@@ -50,6 +67,11 @@ export function App() {
   const handleSearchChange = (value: string) => {
     setSearchTerm(value)
     setPage(1)
+  }
+
+  const handleOpenLightbox = (photoId: number) => {
+    const globalIndex = filteredPhotos.findIndex((p) => p.id === photoId)
+    setIndex(globalIndex)
   }
 
   return (
@@ -71,7 +93,10 @@ export function App() {
 
           {currentPhotos.length > 0 ? (
             <>
-              <PhotoGrid photos={currentPhotos} />
+              <PhotoGrid
+                photos={currentPhotos}
+                onPhotoClick={handleOpenLightbox}
+              />
 
               {totalPages > 1 && (
                 <Stack sx={{ mt: 6, alignItems: 'center' }}>
@@ -99,6 +124,17 @@ export function App() {
         </Container>
 
         <Footer />
+
+        <Lightbox
+          index={index}
+          open={index >= 0}
+          close={() => setIndex(-1)}
+          slides={slides}
+          plugins={[Captions]}
+          captions={{
+            descriptionTextAlign: 'center',
+          }}
+        />
       </Box>
     </ThemeProvider>
   )

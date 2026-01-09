@@ -7,7 +7,7 @@ export const PHOTO_MOCK: Photo[] = [
     url: 'https://plus.unsplash.com/premium_photo-1721755969847-6720346ddc15?auto=format&fit=crop&w=800&q=80',
     thumbnailUrl:
       'https://plus.unsplash.com/premium_photo-1721755969847-6720346ddc15?auto=format&fit=crop&w=200&q=80',
-    alt: 'Atleta de atletismo em posição de largada em uma pista alaranjada, focada e preparada para correr.',
+    alt: 'Atleta de atletismo focada correndo em uma pista.',
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const PHOTO_MOCK: Photo[] = [
     url: 'https://images.unsplash.com/photo-1686753767878-2f5fb25e43ac?auto=format&fit=crop&w=800&q=80',
     thumbnailUrl:
       'https://images.unsplash.com/photo-1686753767878-2f5fb25e43ac?auto=format&fit=crop&w=200&q=80',
-    alt: 'Jogadora de vôlei de praia em ação sob o sol, com a rede ao centro e areia fina ao redor.',
+    alt: 'Jogadora de vôlei de praia em ação saltando para receber a bola, sob o sol, com a rede ao centro e areia fina ao redor.',
   },
   {
     id: 3,
@@ -63,7 +63,7 @@ export const PHOTO_MOCK: Photo[] = [
     url: 'https://plus.unsplash.com/premium_photo-1716758705908-460213444fe1?auto=format&fit=crop&w=800&q=80',
     thumbnailUrl:
       'https://plus.unsplash.com/premium_photo-1716758705908-460213444fe1?auto=format&fit=crop&w=200&q=80',
-    alt: 'Jogadora de basquete cadeirante se movimentando e quicando a bola de basquete.',
+    alt: 'Atleta cadeirante se movimentando e quicando a bola de basquete.',
   },
   {
     id: 9,
@@ -103,7 +103,7 @@ export const PHOTO_MOCK: Photo[] = [
     url: 'https://plus.unsplash.com/premium_photo-1664304785520-214c522779c4?auto=format&fit=crop&w=800&q=80',
     thumbnailUrl:
       'https://plus.unsplash.com/premium_photo-1664304785520-214c522779c4?auto=format&fit=crop&w=200&q=80',
-    alt: 'Duas esgrimistas vestidos de branco e máscaras de proteção em um duelo com floretes.',
+    alt: 'Duas esgrimistas vestidas de branco e máscaras de proteção em um duelo com floretes.',
   },
   {
     id: 14,

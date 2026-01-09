@@ -9,9 +9,10 @@ import { Photo } from '../types/Photo'
 
 interface PhotoCardProps {
   photo: Photo
+  onClick: () => void
 }
 
-export const PhotoCard = ({ photo }: PhotoCardProps) => {
+export const PhotoCard = ({ photo, onClick }: PhotoCardProps) => {
   return (
     <Card
       sx={{
@@ -28,7 +29,7 @@ export const PhotoCard = ({ photo }: PhotoCardProps) => {
         },
       }}
     >
-      <CardActionArea sx={{ flexGrow: 1 }}>
+      <CardActionArea sx={{ flexGrow: 1 }} onClick={onClick}>
         <CardMedia
           component="img"
           height="200"

@@ -4,14 +4,15 @@ import { PhotoCard } from './PhotoCard'
 
 interface PhotoGridProps {
   photos: Photo[]
+  onPhotoClick: (id: number) => void
 }
 
-export const PhotoGrid = ({ photos }: PhotoGridProps) => {
+export const PhotoGrid = ({ photos, onPhotoClick }: PhotoGridProps) => {
   return (
     <Grid container spacing={4}>
       {photos.map((photo) => (
         <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }} key={photo.id}>
-          <PhotoCard photo={photo} />
+          <PhotoCard photo={photo} onClick={() => onPhotoClick(photo.id)} />
         </Grid>
       ))}
     </Grid>
